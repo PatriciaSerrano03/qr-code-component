@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; /* padding y margin se calcule haci adentro y no hacia fuera */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e1ef;
+}
+
+.box {
+  padding: 16px;
+  border-radius: 20px;
+  width: 320px;
+  height: 499px;
+  margin-inline: auto;
+  background-color: #ffffff;
+}
+
+.box_img {
+  border-radius: 10px;
+}
+
+.box_content {
+  text-align: center;
+  padding-top: 24px;
+  padding-inline: 10px;
+}
+.box_content_title {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.box_content_text {
+  font-size: 15px;
+}
